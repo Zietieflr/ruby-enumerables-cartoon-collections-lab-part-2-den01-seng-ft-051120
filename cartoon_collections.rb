@@ -25,7 +25,8 @@ def find_valid_calls(planeteer_calls)
   #    (return call);
   #  end
   #}}
-  planeteer_calls.map { |call| valid_calls.length.times { |vc_index| (call.to_s === valid_calls[vc_index]) ? (return call) : nil }};
-  nil;
+  #planeteer_calls.map { |call| valid_calls.length.times { |vc_index| (call.to_s === valid_calls[vc_index]) ? (return call) : nil }};
+  #nil;
+  
 end
 
